@@ -30,12 +30,3 @@ We welcome contributions from the EO community! If you have developed a tutorial
 - Create a new branch for your material.
 
 - Submit a Pull Request with a clear description of the event or use case.
-
-## Agency Partners
-This project is a testament to international cooperation in space:
-
-- ESA (European Space Agency)
-
-- NASA (National Aeronautics and Space Administration)
-
-- JAXA (Japan Aerospace Exploration Agency)
