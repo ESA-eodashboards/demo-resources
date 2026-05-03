@@ -16,6 +16,7 @@ By clicking on the [Dashboard tab](https://eodashboard.org/explore/?x=15.0000&y=
 * Metadata (satellite, sensor, agency, temporal interval)
 * Indicator description
 * Date/BBOX selection and area computation on map
+* External APIs execution
 * Interactive timeseries chart generation
 * Compare mode
 * Extract storytelling configuration
@@ -30,25 +31,21 @@ By clicking on the [Dashboard tab](https://eodashboard.org/explore/?x=15.0000&y=
 
 ## EO Dashboard Resources
 ### EODASH Ecosystem 
-The [eodash ecosystem](https://www.osgeo.org/projects/eodash/) is structured as an open community project (OSGeo), designed to be:
-* easily usable
-* configurable
-* extendable
-<br>It is also present in the **Copernicus Data Space Ecosystem** (CDSE) as a [registered infrastructure](https://dataspace.copernicus.eu/ecosystem/services) providing services and tools for Earth observation data access and processing.
-<br>
-It implements the following standards:
+The [eodash ecosystem](https://www.osgeo.org/projects/eodash/) is structured as an open community project (*OSGeo*) designed to be easily usable, configurable and extendable integrating multiple end-points and handling third-party APIs and services (for example [Sentinel Hub Statistical API](https://docs.sentinel-hub.com/api/latest/api/statistical/)).<br> 
+It is also present in the **Copernicus Data Space Ecosystem** (CDSE) as a [registered infrastructure](https://dataspace.copernicus.eu/ecosystem/services) providing services and tools for Earth observation data access and processing. It implements the following standards:
 * GeoJSON
 * COG
-* STAC (browse the EODASH catalog )
+* STAC
 * WMS/WMTS
-<br>Being STAC-compliant allows also for the inspecting of the entire EODASH catalog via the [registered infrastructure](https://dataspace.copernicus.eu/ecosystem/services) [STAC browser](https://radiantearth.github.io/stac-browser/#/external/esa-eodashboards.github.io/eodashboard-catalog/trilateral/catalog.json?.language=en).
+
+Being STAC-compliant allows for the inspection of the EODashboard STAC Catalog content via the [STAC browser](https://radiantearth.github.io/stac-browser/#/external/esa-eodashboards.github.io/eodashboard-catalog/trilateral/catalog.json?.language=en). Moreover the static catalog can be accessed via the PySTAC library to explore the available collections, checking individual metadata fields, browsing through items ([EODashboard STAC access examples](https://eodashboard.org/notebook/?id=notebooks/eodashboard-stac-access/eodashboard-stac-access)). 
 ### EOxHub Workspace
 [EOxHub Workspace](https://hub.eox.at/) implements the EODASH Ecosystem as a co-working platform, hosting different applications, allowing for the creation of end-to-end workflows, from private data generation to indicator visualization and narrative creation on the dashboard. 
 <br>EOxHub Workspaces are based on the following applications:
-1) JupyterLab, for the selection of processing environment images and related resources
-2) Data Editor
-3) Narrative Editor
-4) Conda Store, to manage conda environment
+1) *JupyterHub*, a customizable datascience environment in which to select processing environment images and related resources
+2) *Data Editor*, allowing for data and metadata configuration
+3) *Narrative Editor*, supporting Markdown-based stories creation
+4) *Conda Store*, to manage conda environment
 
 ## Further Information
 The [EOxHub Workspaces documentation](https://documentation.hub.eox.at/) offers different sections where to discover additional details of the dashboard resources. In particular the *Tutorials* provide step-by-step procedures on the usage of the Data and Narrative Editors and how to [cross-link](https://documentation.hub.eox.at/editors-linking-stories-collections/) them.
