@@ -43,8 +43,8 @@ Being STAC-compliant allows for the inspection of the EODashboard STAC Catalog c
 [EOxHub Workspace](https://hub.eox.at/) implements the EODASH Ecosystem as a co-working platform, hosting different applications, allowing for the creation of end-to-end workflows, from private data generation to indicator visualization and narrative creation on the dashboard. 
 <br>EOxHub Workspaces are based on the following applications:
 1) *JupyterHub*, a customizable datascience environment in which to select processing environment images and related resources
-2) *Data Editor*, allowing for data and metadata configuration
-3) *Narrative Editor*, supporting Markdown-based stories creation
+2) *Data Editor*, Git-based application allowing for data and metadata configuration
+3) *Narrative Editor*, Git-based application supporting Markdown-based stories creation
 4) *Conda Store*, to manage conda environment
 
 ## Further Information
