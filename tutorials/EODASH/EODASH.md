@@ -10,7 +10,7 @@ The [Earth Observing Dashboard](https://eodashboard.org/) is the result of a joi
 ## Exploring the Dashboard
 Based on accurate remote sensing observations, the Dashboard shows key indicators (such as maps and tabular timeseries data) to display water quality, climate change and health indicators, economic activities, etc. over different countries and regions around the world.
 ### Searching by Theme
-By clicking on the [Dashboard tab](https://eodashboard.org/explore/?x=15.0000&y=48.0000&z=4.0000&template=expert) one can search by *Themes* and by selecting *Atmosphere* the corresponding indicators will be listed. <br>For example [Tropospheric NO2 concentrations maps](https://eodashboard.org/explore/?x=0.0000&y=0.0000&z=2.8642&datetime=2025-05-19&template=expert&indicator=N1_NO2) from **ESA's Sentinel-5P** (Copernicus Programme) mission are used for monitoring air quality and the dashboard provides the following <u>assets and features</u> to further examine the data:
+By clicking on the [Dashboard tab](https://eodashboard.org/explore/?x=15.0000&y=48.0000&z=4.0000&template=expert) one can search by *Themes* and by selecting *Air Quality* the corresponding indicators will be listed. <br>For example [Tropospheric NO2 concentrations maps](https://eodashboard.org/explore/?x=0.0000&y=0.0000&z=2.8642&datetime=2025-05-19&template=expert&indicator=N1_NO2) from **ESA's Sentinel-5P** (Copernicus Programme) mission are used for monitoring air quality and the dashboard provides the following <u>assets and features</u> to further examine the data:
 * Light/Expert Mode
 * Data Layers 
 * Metadata (satellite, sensor, agency, temporal interval)
