@@ -41,7 +41,7 @@ It implements the following standards:
 * COG
 * STAC (browse the EODASH catalog )
 * WMS/WMTS
-<br>Being STAC-compliant allows also for the inspecting of the entire EODASH catalog via the [STAC-browser](https://radiantearth.github.io/stac-browser/#/external/esa-eodashboards.github.io/eodashboard-catalog/trilateral/catalog.json?.language=en).
+Being STAC-compliant allows also for the inspecting of the entire EODASH catalog via the [STAC-browser](https://radiantearth.github.io/stac-browser/#/external/esa-eodashboards.github.io/eodashboard-catalog/trilateral/catalog.json?.language=en).
 ### EOxHub Workspace
 [EOxHub Workspace](https://hub.eox.at/) implements the EODASH Ecosystem as a co-working platform, hosting different applications, allowing for the creation of end-to-end workflows, from private data generation to indicator visualization and narrative creation on the dashboard. 
 <br>EOxHub Workspaces are based on the following applications:
