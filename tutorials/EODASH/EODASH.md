@@ -25,16 +25,23 @@ By clicking on the [Dashboard tab](https://eodashboard.org/explore/?x=15.0000&y=
 By clicking on the [Dashboard tab](https://eodashboard.org/explore/?x=15.0000&y=48.0000&z=4.0000&template=expert) one can search by *Name* and for example by typing "chlorophyll", [Chlorophyll-a concentration from GCOM-C](https://eodashboard.org/explore/?indicator=N3a2_chl_jaxa&x=12.9000&y=45.1537&z=8.9359&datetime=2026-02-21&template=expert&poi=NorthAdriatic) (**JAXA**) can be explored. 
 
 ### Indicators and Stories Interplay
-Another important capability characterizing the Earth Observing Dashboard is the *storytelling* feature, allowing the combination of interactive visual elements — such as maps and dynamic charts — with indicators to create narrative-driven guided tours.
+*Storytelling* is another important capability characterizing the Earth Observing Dashboard: it allows for the combination of interactive visual elements — such as maps and dynamic charts — with indicators to create narrative-driven guided tours.
 <br>For example by typing "nightlights" in the Indicators Search bar and selecting [Night Lights in Rural Areas](https://eodashboard.org/explore/?x=-87.5000&y=41.8288&z=5.8958&template=expert&indicator=NTLR&datetime=2019-01-01), the nighttime light maps obtained by post-processing and color blending imageries produced by the Suomi NPP (a joint mission of NOAA and **NASA**) can be visualized together with the related [Jupyter Notebook](https://eodashboard.org/notebook/?id=notebooks/nightlights-notebook/night-lights-blending) (for results reproducibility) and the corresponding [story](https://eodashboard.org/story/?id=nightlights_from_space).
 
 ## EO Dashboard Resources
 ### EODASH Ecosystem 
-The [eodash ecosystem](https://www.osgeo.org/projects/eodash/) is structured as an open community project, designed to be:
+The [eodash ecosystem](https://www.osgeo.org/projects/eodash/) is structured as an open community project (OSGeo), designed to be:
 * easily usable
 * configurable
 * extendable
 <br>It is also present in the **Copernicus Data Space Ecosystem** (CDSE) as a [registered infrastructure](https://dataspace.copernicus.eu/ecosystem/services) providing services and tools for Earth observation data access and processing.
+<br>
+It implements the following standards:
+* GeoJSON
+* COG
+* STAC (browse the EODASH catalog )
+* WMS/WMTS
+<br>Being STAC-compliant allows also for the inspecting of the entire EODASH catalog via the [STAC-browser](https://radiantearth.github.io/stac-browser/#/external/esa-eodashboards.github.io/eodashboard-catalog/trilateral/catalog.json?.language=en).
 ### EOxHub Workspace
 [EOxHub Workspace](https://hub.eox.at/) implements the EODASH Ecosystem as a co-working platform, hosting different applications, allowing for the creation of end-to-end workflows, from private data generation to indicator visualization and narrative creation on the dashboard. 
 <br>EOxHub Workspaces are based on the following applications:
