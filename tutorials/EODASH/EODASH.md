@@ -32,11 +32,11 @@ By clicking on the [Dashboard tab](https://eodashboard.org/explore/?x=15.0000&y=
 ## EO Dashboard Resources
 ### EODASH Ecosystem 
 The [eodash ecosystem](https://www.osgeo.org/projects/eodash/) is structured as an open community project (*OSGeo*) designed to be easily usable, configurable and extendable integrating multiple end-points and handling third-party APIs and services (for example [Sentinel Hub Statistical API](https://docs.sentinel-hub.com/api/latest/api/statistical/)).<br> 
-It is also present in the **Copernicus Data Space Ecosystem** (CDSE) as a [registered infrastructure](https://dataspace.copernicus.eu/ecosystem/services) providing services and tools for Earth observation data access and processing. It implements the following standards:
-* GeoJSON
-* COG
-* STAC
+It is also present in the **Copernicus Data Space Ecosystem** (CDSE) as a [registered infrastructure](https://dataspace.copernicus.eu/ecosystem/services) providing services and tools for Earth observation data access and processing. It implements multiple standards, including:
+* GeoJSON/FlatGeobuf
+* GeoTIFF/COG
 * WMS/WMTS
+* STAC
 
 Being STAC-compliant allows for the inspection of the EODashboard STAC Catalog content via the [STAC browser](https://radiantearth.github.io/stac-browser/#/external/esa-eodashboards.github.io/eodashboard-catalog/trilateral/catalog.json?.language=en). Moreover the static catalog can be accessed via the PySTAC library to explore the available collections, checking individual metadata fields, browsing through items ([EODashboard STAC access examples](https://eodashboard.org/notebook/?id=notebooks/eodashboard-stac-access/eodashboard-stac-access)). 
 ### EOxHub Workspace
