@@ -40,6 +40,7 @@ Being STAC-compliant allows for the inspection of the RACE STAC Catalog content 
 2) *Data Editor*, Git-based application allowing for data and metadata configuration
 3) *Narrative Editor*, Git-based application supporting Markdown-based stories creation
 4) *Conda Store*, to manage conda environment
+
 <br>In particular the editors via the Workspace UI allow for creating and publishing on RACE Git repositories the configuration files for [indicators](https://github.com/ESA-eodashboards/RACE-catalog/tree/main/collections) and mark-down files for [descriptions](https://github.com/eurodatacube/eodash-assets/tree/main/collections) and [stories](https://github.com/ESA-eodashboards/RACE-narratives/tree/main).
 
 The [EOxHub Workspaces documentation](https://documentation.hub.eox.at/) offers different sections where to discover additional details of the dashboard resources. In particular the *Tutorials* provide step-by-step procedures on the usage of the Data and Narrative Editors and how to [cross-link](https://documentation.hub.eox.at/editors-linking-stories-collections/) them.
