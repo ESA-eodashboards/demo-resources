@@ -23,7 +23,7 @@ By clicking on the [Dashboard tab](https://race.esa.int/explore/?x=15.0000&y=48.
 *Storytelling* is another important capability characterizing the RACE Dashboard: it allows for the combination of interactive visual elements — such as maps and dynamic charts — with indicators to create narrative-driven guided tours.
 <br>For example by flagging *Agriculture*  under the *Themes* bar and selecting [Crop Yield](https://race.esa.int/explore/?x=16.2850&y=49.8264&z=6.2521&template=expert&indicator=CROPOM_yield&datetime=2024-03-09) from the available indicators list, crop yield maps at regional level can be visualized. This indicator is provided as a service (integrating the *Crop Model API*) by [CropOM](https://cropom.com/) - a technology company (SME) that develops data integration platform services and integrated software for agriculture, insurance, and education. Moreover, by browsing the *Stories* section of the indicator properties, the corresponding [story](https://race.esa.int/story/?id=CropOM) can be accessed.
 
-## RACE Resources
+## RACE Architecture
 ### EODASH Ecosystem 
 The [eodash ecosystem](https://www.osgeo.org/projects/eodash/) is structured as an open community project (*OSGeo*) designed to be easily usable, configurable and extendable integrating multiple end-points and handling third-party APIs and services (for example [CropOM API](https://cropom.com/datacube)).<br> 
 It is also present in the *Copernicus Data Space Ecosystem* (CDSE) as a [registered infrastructure](https://dataspace.copernicus.eu/ecosystem/services) providing services and tools for Earth observation data access and processing. It implements multiple standards, including:
