@@ -32,7 +32,7 @@ It is also present in the *Copernicus Data Space Ecosystem* (CDSE) as a [registe
 * WMS/WMTS
 * STAC
 
-Being STAC-compliant allows for the inspection of the RACE STAC Catalog content via the [STAC browser](https://radiantearth.github.io/stac-browser/#/external/ESA-eodashboards.github.io/RACE-catalog/RACE/catalog.json?.language=en). Moreover the static catalog can be accessed via the PySTAC library to explore the available collections, checking individual metadata fields, browsing through items ([EODashboard STAC access examples](https://eodashboard.org/notebook/?id=notebooks/eodashboard-stac-access/eodashboard-stac-access)). 
+Being STAC-compliant allows for the inspection of the RACE STAC Catalog content via the [STAC browser](https://radiantearth.github.io/stac-browser/#/external/ESA-eodashboards.github.io/RACE-catalog/RACE/catalog.json?.language=en). Moreover the static catalog can be accessed via the *PySTAC* library to explore the available collections, checking individual metadata fields, browsing through items. 
 ### EOxHub Workspace
 [EOxHub Workspace](https://hub.eox.at/) implements the EODASH Ecosystem as a co-working platform, hosting different applications, allowing for the creation of end-to-end workflows, from private data generation to indicator visualization and narrative creation on the dashboard. 
 <br>EOxHub Workspaces are based on the following applications ([Tutorial Workspace](https://workspace.eodashboardtutorial.hub-otc-sc.eox.at/)):
