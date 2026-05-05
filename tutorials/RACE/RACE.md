@@ -25,7 +25,7 @@ By clicking on the [Dashboard tab](https://race.esa.int/explore/?x=15.0000&y=48.
 
 ## RACE Resources
 ### EODASH Ecosystem 
-The [eodash ecosystem](https://www.osgeo.org/projects/eodash/) is structured as an open community project (*OSGeo*) designed to be easily usable, configurable and extendable integrating multiple end-points and handling third-party APIs and services (for example [Sentinel Hub Statistical API](https://docs.sentinel-hub.com/api/latest/api/statistical/), [CropOM API](https://cropom.com/datacube)).<br> 
+The [eodash ecosystem](https://www.osgeo.org/projects/eodash/) is structured as an open community project (*OSGeo*) designed to be easily usable, configurable and extendable integrating multiple end-points and handling third-party APIs and services (for example [CropOM API](https://cropom.com/datacube)).<br> 
 It is also present in the *Copernicus Data Space Ecosystem* (CDSE) as a [registered infrastructure](https://dataspace.copernicus.eu/ecosystem/services) providing services and tools for Earth observation data access and processing. It implements multiple standards, including:
 * GeoJSON/FlatGeobuf
 * GeoTIFF/COG
